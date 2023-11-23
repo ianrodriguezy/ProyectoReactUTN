@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    
+}
+
+.footer img {
+    width: 30px;
+    margin: 10px;
+    
+}
+
+.ubicacion, .redes, .acerca{
+    display: flex;
+    width: 33%;     
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.copy{
+    text-align: center;
+    margin-top: 2rem;
+}
