@@ -1,14 +1,11 @@
-import "./nav.css"
-import Logo from "../../assets/logo.svg"
-import { Link } from "react-router-dom"
-
-
+import { Link } from "react-router-dom";
+import "./nav.css";
 
 const NavBar = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        <img src={Logo} alt="" />
+        E-Commerce
       </Link>
 
       <Link to="/productos" className="icon">
@@ -16,11 +13,11 @@ const NavBar = () => {
       </Link>
 
       <Link to="/contacto" className="icon">
-        Contactos
+        Contacto
       </Link>
 
-      <Link to="/cart" className="icon">
-        Cart
+      <Link to="/carrito" className="icon">
+        <i className="fa-solid fa-shop"></i>
       </Link>
     </nav>
   );

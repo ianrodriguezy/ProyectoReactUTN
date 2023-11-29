@@ -1,40 +1,51 @@
-import "./footer.css"
-import facebook from "../../assets/Imagesfooter/fbIcon.png"
-import instagram from "../../assets/Imagesfooter/instagramIcon.png"
-import whatsapp from "../../assets/Imagesfooter/whatsappIcon.png"
-export const Footer = () => {
+import "./footer.css";
+
+const Footer = () => {
   return (
     <>
-      <div className="footer">
-        <div className="ubicacion">
-          <h2 className="titulo">Ubicación</h2>
-          <p>Buenos Aires, Argentina.</p>
+      <footer>
+        <div className="footer__container">
+          <h2>Ubicacion</h2>
+          <div className="linea"></div>
+          <p>Argentina - Buenos Aires</p>
         </div>
-        <div className="redes">
-          <h2 className="titulo">Redes</h2>
-          <div>
-            <a href="">
-              <img src={facebook} alt="" />
+        <div className="footer__container">
+          <h2>Redes</h2>
+          <div className="linea"></div>
+          <div className="redes">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-facebook"></i>
             </a>
-            <a href="">
-              <img src={instagram} alt="" />
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-brands fa-instagram"></i>
             </a>
-            <a href="">
-              <img src={whatsapp} alt="" />
+            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+              <i className="fa-brands fa-twitter"></i>
             </a>
           </div>
         </div>
-        <div className="acerca">
-          <h2 className="titulo">Acerca de nosotros</h2>
+        <div className="footer__container">
+          <h2>Acerca De Nosotros</h2>
+          <div className="linea"></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            assumenda quidem, error nobis officia eaque impedit nihil similique.
-            Ratione at consequuntur dolorem! Quis repudiandae, quam aliquid
-            vitae culpa voluptatibus officia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            quidem, vero repudiandae molestias esse tempore excepturi quisquam
+            sequi temporibus ipsa nam magnam similique eum porro deserunt
+            quaerat odit? At, voluptatum.
           </p>
         </div>
-      </div>
-      <p className="copy">Todos los derechos</p>
+      </footer>
+      <p className="copyright">Copyright © 2023 UTN</p>
     </>
   );
-}
+};
+
+export default Footer;

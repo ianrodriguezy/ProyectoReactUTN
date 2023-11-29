@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S22",
+    "price": 850,
+    "description": "Smartphone, Factory Unlocked Android Cell Phone, 256GB, 8K Camera & Video, Brightest Display, Long Battery Life, Fast 4nm Processor, US Version. 8K SUPER STEADY VIDEO: Shoot videos that rival how epic your life is with stunning 8K recording, the highest recording resolution available on a smartphone; Video captured is effortlessly smooth, thanks to Auto Focus Video Stabilization on Galaxy S22.",
+    "images": "/src/assets/phone/s22-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Samsung 32 inches QLED 4K Smart TV",
+    "price": 500,
+    "description": "4K UHD Processor: a powerful processor optimizes your tv' s performance with 4K picture quality Inputs & Outputs: 3 HDMI ports, 1 Ethernet port, 2 USB Ports (v 2.0), 1 Digital Audio Output (Optical), 1 Composite Input (AV), Dimensions with Stand | without Stand Weight: 11.7 lb. 4K UHD: see what you've been missing on a crisp, clear picture that's 4x the resolution of Full HD Smart TV with Universal Guide: our simple on-screen Guide is an easy way to find streaming content and live TV showsHD: see shades of color that reveal more detail than HDTV can deliver.",
+    "images": "/src/assets/smart-tv/Samsung-32-inches-1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "BRAVIA 4K HDR Full Array LED",
+    "price": 1099,
+    "description": "COGNITIVE PROCESSOR XR™ - Revolutionary TV processing technology that understands how humans see and hear to deliver intense contrast with deep blacks, high peak brightness, and natural colors. Rediscover everything you watch with billions of accurate colors and see impressive picture quality that is natural and beautiful to the human eye. Precisely controlled backlighting brings out real-life depth and detail with deep blacks and high peak brightness.",
+    "images": "/src/assets/smart-tv/BRAVIA-4K-HDR-1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "2021 Apple MacBook Pr",
+    "price": 1300,
+    "description": "Apple M1 Pro or M1 Max chip for a massive leap in CPU, GPU, and machine learning performance. Up to 10-core CPU delivers up to 3.7x faster performance to fly through pro workflows quicker than ever. Up to 32-core GPU with up to 13x faster performance for graphics-intensive apps and games. 16-core Neural Engine for up to 11x faster machine learning performance. Longer battery life, up to 17 hours. Up to 64GB of unified memory so everything you do is fast and fluid.",
+    "images": "/src/assets/pc/Apple-MacBook-Pr-1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Samsung 30' 6 Cubic Feet Smart Gas Slide-In Range",
+    "price": 799,
+    "description": "This new gas range is fully wi-fi connected and voice-enabled, making it easy to create delicious meals for your family. Fingerprint-resistant finish: Fingerprint-resistant, for an everyday beautiful finish. Flexible cooktop: Get to high heat quickly for searing meat or boiling water, or turn down to a simmer to make your favorite sauces. Easily slide your pots and pans across the seamless, edge-to-edge grates covering a 5 burner cooktop. Ready2fit guarantee: If your Range doesn't fit your 30' freestanding range cutout, enjoy $100 on them to cover any countertop modification costs.",
+    "images": "/src/assets/stoves/Samsung-Cubic-Feet-1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sony X85J 55 Inch smart TV",
+    "price": 1198,
+    "description": "4K Ultra HD LED Smart Google TV with Native 120HZ Refresh Rate, Dolby Vision HDR and Alexa Compatibility KD55X85J- 2021 Model,Black. 4K HDR PROCESSOR X1 - Powerful TV processing that delivers a picture that is smooth and clear, full of rich colors and detailed contrast. Reproduces more colors than a conventional TV resulting in picture quality that is natural and precise, and closer than ever to real life. Seamlessly browse 700,000+ movies and TV episodes from across your favorite streaming services, all in one place.",
+    "images": "/src/assets/smart-tv/Sony-X85J-1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Pocophone X3 Pro",
+    "price": 275,
+    "description": "This is the first POCO phone equipped with a 6nm chipset and powered by four super performance Arm Cortex-A78 cores which effectively balance between performance and energy consumption. With UFS 3.1, you can enjoy shorter loading times whether you are gaming or taking pictures. The multiple high-efficiency heat dissipation materials create flagship-level temperature control and rapid cooling. LiquidCool Technology 2.0 allows the phone to be in a high-performance state at any time, unleashing the maximum potential of the processor.",
+    "images": "/src/assets/phone/Pocophone-X3-Pro-1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Electric Range with 7 Function Convection Oven",
+    "price": 1599,
+    "description": "Refine your culinary skills when you cook with Cosmo's freestanding electric range. This range features a blue interior, smooth glass-ceramic cooktop, including one triple ring and one dual ring burner, each allowing you to customize your cooking surface, and a warming zone. The oven is equipped with turbo true European convection and seven different oven functions, so you can cook your way to unforgettable dishes, and achieve delicious results every time. The oven is also equipped with a precision temperature probe to ensure perfectly cooked meats- simply insert it and program the control to the desired temperature- no more guesswork.",
+    "images": "/src/assets/stoves/Electric-Range-with7-1.jpg"
+  }
+]

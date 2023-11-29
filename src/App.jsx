@@ -1,11 +1,10 @@
 import { HashRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Nav from "./components/nav/Nav";
-import Productos from "./components/productos/Productos";
 import Contacto from "./components/contacto/Contacto";
-import Cart from "./components/cart/Cart";
-import Home from "./components/home/Home";
-
+import Carrito from "./components/carrito/Carrito";
+import Footer from "./components/footer/Footer";
+import Productos from "./components/productos/productos";
 
 function App() {
   return (
@@ -13,11 +12,12 @@ function App() {
       <HashRouter>
         <Nav />
         <Routes>
-        <Route path="/" element={<Home />} />
+          <Route path="/" element={<Productos />} />
           <Route path="/productos" element={<Productos />} />
           <Route path="/contacto" element={<Contacto />} />
-          <Route path="/carrito" element={<Cart />} />
+          <Route path="/carrito" element={<Carrito />} />
         </Routes>
+        <Footer />
       </HashRouter>
     </>
   );

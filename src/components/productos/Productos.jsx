@@ -1,9 +1,29 @@
-import "./productos.css"
+import "./productos.css";
+import { useFetch } from "../../useFetch";
 
 const Productos = () => {
-  return (
-    <div>Productos</div>
-  )
-}
+  const { data } = useFetch("/src/products.json");
 
-export default Productos
+  console.log(data);
+  return (
+    <div className="product-container">
+      {data?.map((product) => (
+        <div className="product" key={product.id}>
+          <div>
+            <h3>{product.name}</h3>
+            <img src={product.images} />
+          </div>
+          <div>
+            <p>{product.description}</p>
+          </div>
+          <div>
+            <p className="price">Precio: ${product.price}</p>
+            <button>Añadir al carrito</button>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default Productos;
