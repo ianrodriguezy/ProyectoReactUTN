@@ -1,5 +1,6 @@
 import "./productos.css";
 import { useFetch } from "../../useFetch";
+import { Link } from "react-router-dom";
 
 const Productos = () => {
   const { data } = useFetch("/src/products.json");
@@ -18,7 +19,9 @@ const Productos = () => {
           </div>
           <div>
             <p className="price">Precio: ${product.price}</p>
-            <button>Añadir al carrito</button>
+            <Link to={`/producto/${product.id}`}>
+              <button>Añadir al carrito</button>
+            </Link>
           </div>
         </div>
       ))}
